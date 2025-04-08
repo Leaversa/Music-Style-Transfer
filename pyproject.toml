@@ -1,0 +1,15 @@
+[project]
+name = "gen-ai-music-style-transfer"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fluidsynth>=0.2",
+    "ipykernel>=6.29.5",
+    "midi2audio>=0.1.1",
+    "pretty-midi>=0.2.10",
+    "torch>=2.6.0",
+    "torchvision>=0.21.0",
+    "zenodo-get>=1.6.1",
+]
